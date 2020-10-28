@@ -18,5 +18,6 @@ lazy val root = (project in file("."))
 
       "com.typesafe.akka" %% "akka-testkit" % versions.akkaVersion % Test,
       "org.scalatest" %% "scalatest" % "3.2.2" % Test
-    )
+    ),
+    scalafmtOnCompile := true
   )
