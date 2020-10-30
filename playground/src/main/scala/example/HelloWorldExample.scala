@@ -38,4 +38,9 @@ object HelloWorldExample {
 
     system ! StartHelloWorld
   }
+
+  def makeInt(): Unit = {
+
+    val _ = 42
+  }
 }
